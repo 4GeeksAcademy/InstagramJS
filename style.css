@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff
+}
+.post {
+    position: relative;
+    width: 360px;
+    max-height: 100%;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+    padding: 20px
+}
+    
+.post .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post .post-header .userdetails{
+    display: flex; 
+    align-items: center;
+}
+.post .post-header .userdetails .profile_img{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    margin-right: 8px;
+    font-size: 25px;
+}
+.fa-wine-bottle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post .post-header .userdetails h3{
+    font-size: 16px;
+    color: #4d4d4f;
+    font-weight: 500;
+    line-height: 1em;
+}
+.post .post-header .userdetails h3 span{
+    font-size: 0.75em;
+}
+.fa-ellipsis-vertical {
+    transform: scale(1);
+    cursor: pointer;
+}
+.imgBx .cover{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 10px 0 15px;
+}
+.actionBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6em;
+}
+.actionBtns .fa-regular {
+    max-width: 24px;
+    cursor: pointer;
+}
+.actionBtns .left img {
+    margin-right: 8px;
+}
+.likes{
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #4d4d4f
+}
+.message{
+    font-weight: 400;
+    margin-top: 5px;
+    color: #777;
+    line-height: 1.5em;
+}
+.message b{
+    color:#262626
+}
+.message span{
+    color: #1d92ff;
+    cursor: pointer;
+}
